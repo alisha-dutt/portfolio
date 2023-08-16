@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashsvi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer & Designer</p>
+            <h1>Hi, I'm <span>Yashsvi</span><br>From Canada</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Yashsvi (aka Alisha Dutt) , a dedicated professional with 2+ years of experience in web development and design. My journey has been driven by a genuine passion for coding and creating digital experiences that seamlessly merge with the beauty of nature. Proficient in HTML, CSS, ExpressJS and more, I bring creativity and innovation to every project I undertake. Notably, I've earned certifications in competitive web development, showcasing my commitment to continuous growth. Customer satisfaction sits at the heart of my philosophy, and I take pride in delivering solutions that exceed expectations. Beyond my work, I find solace in photography and the enchantment of music. With an unwavering ambition, I aspire to become a prominent female figure in the web development industry, inspiring others through my work and dedication.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Graphic Design</span><br>Designing & Creating Web/App Graphics and Motion Graphics</li>
+                        <li><span>Web Development</span><br>Deployment of a functional Web application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Freelance Work</li>
+                        <li><span>2021- 2023</span><br>Georgian College - More than 10 CRUD Academic Projects</li>
+                        <li><span>2021</span><br>Internship at NxPro - Next Generation Professionals.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2023</span><br>Interactive Media Design - Web at Georgian College (2 Years)</li>
+                        <li><span>2021</span><br>Bachleor's of Computer Application at PGGCG-11 (1 Year)</li>
+                        <li><span>2020</span><br>Post Secondary Voc. studies in Web Application & IT at GGMSSS-18 (2 Years) </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting digital experiences that resonate – my web designs blend functionality with aesthetics, offering intuitive navigation and captivating visuals. Elevate your online presence with designs that leave a lasting impression.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Transcend user expectations with my UI/UX designs. Seamlessly fusing form and function, I craft intuitive digital journeys that enchant users. Elevate user experiences through designs that engage and empower.</p>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Graphic Design</h2>
+                <p>My graphic designs weave stories through visuals, capturing essence and emotion. With meticulous attention to detail, I create striking visuals that resonate authentically, making your message an artistic masterpiece.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1mob.png">
+                <div class="layer">
+                    <h3>NxPro - Revamped Company Website</h3>
+                    <p>Contributed to NxPro's success through website redesign during internship at an innovative IT solutions firm.</p>
+                    <a href="https://www.nxpro.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3mob.jpg">
+                <div class="layer">
+                    <h3>Five Feet Apart - Book Cover</h3>
+                    <p>Crafted the 'Five Feet Apart' book cover using CSS for a captivating digital design.</p>
+                    <a href="https://five-feet-apart-book-cover.onrender.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2mob.png">
+                <div class="layer">
+                    <h3>Dolphin Cards - Company's Landing Page</h3>
+                    <p>Curated captivating product showcases at Dolphin Cards, your one-stop store for exquisite cards and more.</p>
+                    <a href="https://yashsvinxpro.wixsite.com/my-site"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="work.html" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> alishadutt29@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 647-937-6356</p>
+                <div class="social-icons">
+                    <a href="https://github.com/alisha-dutt"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_alishadutt/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yashsvi-yashsvi/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yashsvi | 2023</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
